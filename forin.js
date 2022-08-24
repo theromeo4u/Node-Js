@@ -21,5 +21,5 @@ console.log("-------------------------------------------------------------------
 const types = ['object','array','string','integer','float','boolean']
 for(const key of types)
 {
-    console.log(`A JavaScript type is : ${key}`)
+    console.log(`The JavaScript type is : ${key}`)
 }
