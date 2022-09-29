@@ -1,0 +1,7 @@
+{
+  "email": "snp42u@gmail.com",
+  "name": "Subodhkumar",
+  "mobile": "8554818949",
+  "password": "Romeo#987",
+  "gender": "male"
+}
