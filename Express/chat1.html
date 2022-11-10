@@ -21,14 +21,14 @@
             else {
                 document.getElementById('error-container').innerHTML = "Age is less than 18";
 
-            }
+            }}
             socket.on('userExists', function (data) {
                 socket.on('setUser', function (data) {
                     user = data.username;
                     document.body.innerHTML = '<textarea id = "message" rows=10 cols=100></textarea>\
                                                 <button onclick = "sendMessage()">Send</button>\
                                                 <div id = "message-container"></div>';
-                });
+                })});
                 function sendMessage() {
                     var msg = document.getElementById('message').value;
                     if (msg) {
